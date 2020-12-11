@@ -48,3 +48,19 @@ header:
       fr-LU   : *FR
       # @end locale config
     url: /about.html
+docs-zh:
+  - title:      Start
+    children:
+      - title:  Quick Start
+        url:    /docs/zh/quick-start
+      - title:  Structure
+        url:    /docs/zh/structure
+  - title:      Customization
+    children:
+      - title:  Configuration
+        url:    /docs/zh/configuration
+      - title:  Navigation
+        url:    /docs/zh/navigation
+
+sidebar:
+  nav: docs-zh
