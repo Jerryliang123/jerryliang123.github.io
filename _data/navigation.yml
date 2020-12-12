@@ -48,19 +48,20 @@ header:
       fr-LU   : *FR
       # @end locale config
     url: /about.html
+  - titles:
+      # @start locale config
+      zh-Hans : &ZH_HANS  文档
+      # @end locale config
 docs-zh:
-  - title:      Start
+  - title:      爱好
     children:
-      - title:  Quick Start
+      - title:  编程
         url:    /docs/zh/quick-start
-      - title:  Structure
+      - title:  知识管理
         url:    /docs/zh/structure
-  - title:      Customization
+  - title:      计算材料学
     children:
-      - title:  Configuration
+      - title:  吸附能计算
         url:    /docs/zh/configuration
-      - title:  Navigation
+      - title:  吉布斯自由能计算
         url:    /docs/zh/navigation
-
-sidebar:
-  nav: docs-zh
