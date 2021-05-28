@@ -20,9 +20,9 @@ text_skin: forest # "default" (default), "dark", "forest", "ocean", "chocolate",
 highlight_theme: default # "default" (default), "tomorrow", "tomorrow-night", "tomorrow-night-eighties", "tomorrow-night-blue", "tomorrow-night-bright"
 url     : https://jerryliang123.github.io # the base hostname & protocol for your site e.g. https://www.someone.com
 baseurl : # does not include hostname
-title   : 漫游日志
+title   : 良的IC验证学习笔记
 description: > # this means to ignore newlines until "Language & timezone"
-  此blog主要用于记录编程学习过程，知识管理，心理学，计算材料学等。
+  记录自己的IC验证学习笔记
 ## => Language and Timezone
 ##############################
 lang: zh-CN # the language of your site, default as "en"
@@ -35,7 +35,7 @@ author:
   type      : # "person" (default), "organization"
   name      : 钱良
   url       :
-  avatar    : https://image-icons.oss-cn-beijing.aliyuncs.com/img/blog.jpg # path or url of avatar image (square)
+  avatar    : https://image-icons.oss-cn-beijing.aliyuncs.com/img/jerry.png # path or url of avatar image (square)
   bio       : Achieve Greatness.
   email     : jerryliang9609@gmail.com
   facebook  :  # "user_name" the last part of your profile url, e.g. https://www.facebook.com/user_name
