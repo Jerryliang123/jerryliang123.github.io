@@ -47,7 +47,7 @@ header:
       fr-FR   : *FR
       fr-LU   : *FR
       # @end locale config
-    url: /docs/zh/Verilog.html
+    url: /Verilog.html
 
   - titles:
       # @start locale config
@@ -78,7 +78,7 @@ ic-verification:
   - title:      Verilog
     children:
       - title:  Verilog简单介绍以及重要知识点
-        url:    /docs/zh/Verilog
+        url:    /docs/zh/Verilog.html
   - title:      System Verilog
     children:
       - title:  SV见到那介绍以及重要知识点

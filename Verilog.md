@@ -1,7 +1,11 @@
 ---
+layout: article
 title: Verilog简介与重要知识点
-permalink: /docs/zh/Verilog
-key: docs-Verilog-zh
+tags: Verilog
+aside:
+  toc: true
+sidebar:
+  nav: ic-verification
 ---
 
 ## Verilog简介
