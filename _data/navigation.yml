@@ -52,16 +52,12 @@ header:
       # @start locale config
       zh-Hans : &ZH_HANS  文档
       # @end locale config
-docs-zh:
-  - title:      初步接触Chrome扩展
+ic-verification:
+  - title:      Verilog
     children:
-      - title:  认识Chrome扩展及应用
-        url:    /docs/zh/quick-start
-      - title:  我的第一个Chrome扩展
-        url:    /docs/zh/structure
-  - title:      Chrome扩展的UI界面
+      - title:  Verilog简单介绍以及重要知识点
+        url:    /_posts/Verilog
+  - title:      System Verilog
     children:
-      - title:  CSS简述
-        url:    /docs/zh/configuration
-      - title:  右键菜单
-        url:    /docs/zh/navigation
+      - title:  SV见到那介绍以及重要知识点
+        url:    /_posts/SV
