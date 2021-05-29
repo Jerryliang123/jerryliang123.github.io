@@ -78,8 +78,8 @@ ic-verification:
   - title:      Verilog
     children:
       - title:  Verilog简单介绍以及重要知识点
-        url:    /docs/zh/Verilog.html
+        url:    /Verilog.html
   - title:      System Verilog
     children:
       - title:  SV见到那介绍以及重要知识点
-        url:    /docs/zh/SV
+        url:    /SV.html
