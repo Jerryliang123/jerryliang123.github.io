@@ -56,7 +56,7 @@ ic-verification:
   - title:      Verilog
     children:
       - title:  Verilog简单介绍以及重要知识点
-        url:    /_posts/Verilog
+        url:    /Verilog
   - title:      System Verilog
     children:
       - title:  SV见到那介绍以及重要知识点
