@@ -75,11 +75,29 @@ header:
     url: /about.html
 
 ic-verification:
-  - title:      Verilog
+  - title:      验证概念&环境工具
     children:
-      - title:  Verilog简单介绍以及重要知识点
+      - title:  验证概念
         url:    /Verilog.html
-  - title:      System Verilog
+      - title:  环境工具
+        url:    /Verilog.html
+
+  - title:      基于Verilog的数字电路设计
     children:
-      - title:  SV见到那介绍以及重要知识点
+      - title:  基于Verilog的数字电路设计
+        url:    /Verilog.html
+
+  - title:      基于System Verilog的验证
+    children:
+      - title:  System Verilog
+        url:    /Verilog.html
+
+  - title:      UVM
+    children:
+      - title:  UVM
+        url:    /SV.html
+
+  - title:      总结
+    children:
+      - title:  学习总结
         url:    /SV.html

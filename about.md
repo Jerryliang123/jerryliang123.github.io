@@ -7,16 +7,9 @@ key: page-about
 ---
 
 ## 自我介绍
-职业: 计算材料学学生
-
-爱好: 打篮球，旅游，交友
-
-向往：自由自在无拘无束的生活
+一个双非材料的学生, 正跨行转IC验证.
 
 ## 本博客的目的
-- 写日记
-- 学习写作
-- 跟大家分享一些有趣，实用的软件
-- 记录自己学习编程的过程
-- 梳理自己的思路
-- 等...后面想到了再加上。
+- Public share my experience when learning IC verification
+- Learn by pubic
+- Learn by teaching
