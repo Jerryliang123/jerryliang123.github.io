@@ -22,7 +22,8 @@ url     : https://jerryliang123.github.io # the base hostname & protocol for you
 baseurl : # does not include hostname
 title   : Jerry's Blogging
 description: > # this means to ignore newlines until "Language & timezone"
-Follow my heart.
+  Follow my heart.
+
 ## => Language and Timezone
 ##############################
 lang: zh-CN # the language of your site, default as "en"
