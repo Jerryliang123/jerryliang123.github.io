@@ -20,9 +20,9 @@ text_skin: forest # "default" (default), "dark", "forest", "ocean", "chocolate",
 highlight_theme: default # "default" (default), "tomorrow", "tomorrow-night", "tomorrow-night-eighties", "tomorrow-night-blue", "tomorrow-night-bright"
 url     : https://jerryliang123.github.io # the base hostname & protocol for your site e.g. https://www.someone.com
 baseurl : # does not include hostname
-title   : IC验证学习笔记
+title   : Jerry's Blogging
 description: > # this means to ignore newlines until "Language & timezone"
-  记录自己的IC验证学习笔记
+Follow my heart.
 ## => Language and Timezone
 ##############################
 lang: zh-CN # the language of your site, default as "en"
@@ -33,7 +33,7 @@ timezone: Asia/Shanghai # see https://en.wikipedia.org/wiki/List_of_tz_database_
 ##############################
 author:
   type      : # "person" (default), "organization"
-  name      : 钱良
+  name      : Jerry
   url       :
   avatar    : https://image-icons.oss-cn-beijing.aliyuncs.com/img/jerry.png # path or url of avatar image (square)
   bio       : Achieve Greatness.
