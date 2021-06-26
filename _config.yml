@@ -130,8 +130,8 @@ comments:
     clientSecret: 516d4490e9834d0efff6d66e919892180713769c # GitHub Application Client Secret
     repository  : https://github.com/Jerryliang123/blogComment # GitHub repo
     owner       : Jerryliang123 # GitHub repo owner
-    admin: Jerryliang123 # GitHub repo owner and collaborators, only these guys can initialize GitHub issues, IT IS A LIST.
-      # - your GitHub Id
+    admin: # GitHub repo owner and collaborators, only these guys can initialize GitHub issues, IT IS A LIST.
+      59260364 # - your GitHub Id
 
   ## Valine
   # please refer to https://valine.js.org/en/ for more info.
