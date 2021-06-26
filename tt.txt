@@ -1,0 +1,41 @@
+Binary file ./.git/index matches
+./test/_config.yml:121:  provider: false # false (default), "disqus", "gitalk", "valine", "custom"
+./test/_config.yml:128:  # please refer to https://github.com/gitalk/gitalk for more info.
+./test/_config.yml:129:  gitalk:
+./test/_data/variables.yml:48:    gitalk:
+./test/_data/variables.yml:49:      js: 'https://cdn.bootcss.com/gitalk/1.2.2/gitalk.min.js'
+./test/_data/variables.yml:50:      css: 'https://cdn.bootcss.com/gitalk/1.2.2/gitalk.min.css'
+./test/_data/variables.yml:59:    gitalk:
+./test/_data/variables.yml:60:      js: 'https://unpkg.com/gitalk@1.2.2/dist/gitalk.min.js'
+./test/_data/variables.yml:61:      css: 'https://unpkg.com/gitalk@1.2.2/dist/gitalk.css'
+./_config.yml:120:  provider: gitalk # false (default), "disqus", "gitalk", "valine", "custom"
+./_config.yml:127:  # please refer to https://github.com/gitalk/gitalk for more info.
+./_config.yml:128:  gitalk:
+./_data/variables.yml:48:    gitalk:
+./_data/variables.yml:49:      js: 'https://cdn.bootcss.com/gitalk/1.2.2/gitalk.min.js'
+./_data/variables.yml:50:      css: 'https://cdn.bootcss.com/gitalk/1.2.2/gitalk.min.css'
+./_data/variables.yml:59:    gitalk:
+./_data/variables.yml:60:      js: 'https://unpkg.com/gitalk@1.2.2/dist/gitalk.min.js'
+./_data/variables.yml:61:      css: 'https://unpkg.com/gitalk@1.2.2/dist/gitalk.css'
+./_includes/comments-providers/gitalk.html:2:  site.comments.gitalk.clientID and
+./_includes/comments-providers/gitalk.html:3:	site.comments.gitalk.clientSecret and
+./_includes/comments-providers/gitalk.html:4:	site.comments.gitalk.repository and
+./_includes/comments-providers/gitalk.html:5:	site.comments.gitalk.owner and
+./_includes/comments-providers/gitalk.html:6:	site.comments.gitalk.admin -%}
+./_includes/comments-providers/gitalk.html:8:	<!-- fix text color in the input textarea of gitalk -->
+./_includes/comments-providers/gitalk.html:10:		.gitalk-wrapper .gt-header-textarea {
+./_includes/comments-providers/gitalk.html:17:	<div class="gitalk-wrapper" id="js-gitalk-container"></div>
+./_includes/comments-providers/gitalk.html:19:	{%- for _admin_id in site.comments.gitalk.admin -%}
+./_includes/comments-providers/gitalk.html:25:		window.Lazyload.css('{{ _sources.gitalk.css }}');
+./_includes/comments-providers/gitalk.html:26:		window.Lazyload.js('{{ _sources.gitalk.js }}', function() {
+./_includes/comments-providers/gitalk.html:27:			var gitalk = new Gitalk({
+./_includes/comments-providers/gitalk.html:28:				clientID: '{{ site.comments.gitalk.clientID }}',
+./_includes/comments-providers/gitalk.html:29:				clientSecret: '{{ site.comments.gitalk.clientSecret }}',
+./_includes/comments-providers/gitalk.html:30:				repo: '{{ site.comments.gitalk.repository }}',
+./_includes/comments-providers/gitalk.html:31:				owner: '{{ site.comments.gitalk.owner }}',
+./_includes/comments-providers/gitalk.html:35:			gitalk.render('js-gitalk-container');
+./_includes/comments.html:4:  {%- elsif site.comments.provider == 'gitalk' -%}
+./_includes/comments.html:5:    {%- include comments-providers/gitalk.html -%}
+./_includes/scripts/variables.html:16:        gitalk: {
+./_includes/scripts/variables.html:17:          js: '{{ _sources.gitalk.js }}',
+./_includes/scripts/variables.html:18:          css: '{{ _sources.gitalk.css }}'
