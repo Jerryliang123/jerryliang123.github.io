@@ -131,7 +131,7 @@ comments:
     repository  : https://github.com/Jerryliang123/blogComment # GitHub repo
     owner       : Jerryliang123 # GitHub repo owner
     admin: # GitHub repo owner and collaborators, only these guys can initialize GitHub issues, IT IS A LIST.
-      59260364 # - your GitHub Id
+      - 59260364 # - your GitHub Id
 
   ## Valine
   # please refer to https://valine.js.org/en/ for more info.
