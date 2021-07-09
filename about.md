@@ -8,3 +8,5 @@ key: page-about
 “Never let the fear of striking out keep you from playing the game.”– Babe Ruth
 
 “Life is not a problem to be solved, but a reality to be experienced.”– Soren Kierkegaard
+
+Hi, I am ...
