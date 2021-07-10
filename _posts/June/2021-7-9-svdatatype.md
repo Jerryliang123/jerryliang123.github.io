@@ -1,25 +1,25 @@
 ---
 layout: article
-title: SystemVerilog中13种数据类型理解
+title: SystemVerilog中13种数据结构理解
 tags: 
 - SystemVerilog
-- 数据类型
+- 数据结构
 key: a20210709
 ---
 
-SV中的十三种基本数据类型分别是：  
-SV引入的7种数据类型：logic bit byte shortint int longint shortreal  
-Verilog中自带的6种数据类型：reg net integer real  realtime time
+SV中的十三种基本数据结构分别是：  
+SV引入的7种数据结构：logic bit byte shortint int longint shortreal  
+Verilog中自带的6种数据结构：reg net integer real  realtime time
 
 <!--more-->
 
-### 记忆SV引入的7种数据类型
-对应SV中引入的七种数据类型logic bit byte shortint int longint shortreal  
+### 记忆SV引入的7种数据结构
+对应SV中引入的七种数据结构logic bit byte shortint int longint shortreal  
 1. 其中logic用来取代Verilog中的reg, 两者只是在名字上不同
 2. bit byte shortint int longint 这五种默认的bit大小是从小到大的，分别对应1，8，16，32，64bit.
 3. shortreal目前还没用过，后面补上。
 
-对于SV中的所有的数据类型，如果默认是单bit的(如logic,bit,reg,net四种)，那么其对应的必然是无符号类型(unsigned). 多bit的(如byte,shorint,int,longint,integer)默认是有符号类型(signed)。
+对于SV中的所有的数据结构，如果默认是单bit的(如logic,bit,reg,net四种)，那么其对应的必然是无符号类型(unsigned). 多bit的(如byte,shorint,int,longint,integer)默认是有符号类型(signed)。
 
 ### signed or unsigned, 2-states or 4-states
 有符号类型(signed)和无符号类型(unsigned)的区别：  
