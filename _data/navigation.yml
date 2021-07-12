@@ -47,13 +47,13 @@ header:
       fr-FR   : *FR
       fr-LU   : *FR
       # @end locale config
-    url: /Verilog.html
+    url: https://roamresearch.com/#/app/computationalmaterials/page/9wvQ7qU9j
 
   - titles:
       # @start locale config
       en      : &EN       About
       en-GB   : *EN
-      en-US   : *EN
+      en-US   : *ENk
       en-CA   : *EN
       en-AU   : *EN
       zh-Hans : &ZH_HANS  关于
