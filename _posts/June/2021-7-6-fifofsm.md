@@ -1,6 +1,6 @@
 ---
 layout: article
-title: 序列检测fsm的DUT和TB编写过程
+title: 序列检测状态机fsm的DUT和Testbench编写过程
 tags: 
 - fsm
 - verilog
