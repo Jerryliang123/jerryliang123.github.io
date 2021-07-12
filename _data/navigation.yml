@@ -31,16 +31,16 @@ header:
       en-US   : *EN
       en-CA   : *EN
       en-AU   : *EN
-      zh-Hans : &ZH_HANS  文档
+      zh-Hans : &ZH_HANS  RR wiki
       zh      : *ZH_HANS
       zh-CN   : *ZH_HANS
       zh-SG   : *ZH_HANS
-      zh-Hant : &ZH_HANT  文档
+      zh-Hant : &ZH_HANT  RR wiki
       zh-TW   : *ZH_HANT
       zh-HK   : *ZH_HANT
       ko      : &KO       아카이브
       ko-KR   : *KO
-      fr      : &FR       文档
+      fr      : &FR       RR wiki
       fr-BE   : *FR
       fr-CA   : *FR
       fr-CH   : *FR
