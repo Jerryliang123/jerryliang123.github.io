@@ -3,10 +3,14 @@ layout: article
 key: page-about
 ---
 
-“Many of life’s failures are people who did not realize how close they were to success when they gave up.”– Thomas A. Edison
+He plans to become an IC verification engineer. 
 
-“Never let the fear of striking out keep you from playing the game.”– Babe Ruth
+He hones his craft night and day.
 
-“Life is not a problem to be solved, but a reality to be experienced.”– Soren Kierkegaard
+He wants to be a free man, working not for capital, but for all.
 
-Hi, I am ...
+### 联系方式
+* ![Twitter](https://twitter.com/Jeson50084885)
+* wechat
+
+![](https://image-icons.oss-cn-beijing.aliyuncs.com/img/mmqrcode1626076198560.png)
