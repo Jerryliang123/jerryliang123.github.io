@@ -30,10 +30,10 @@ test = my_test::type_id::create("test", this);  这里的this直接指向当前c
 ```
 
 ## package
-### 怎么声明要给package?
-    - package的声明需要包含在package和endpackage两个关键字之间，下面是声明的一个例子
+### 怎么声明package?
+package的声明需要包含在package和endpackage两个关键字之间，下面是声明的一个例子
 
-```systemverilog
+```
 package my_pkg;
 	typedef enum bit [1:0] { RED, YELLOW, GREEN, RSVD } e_signal;
 	typedef struct { bit [3:0] signal_id;
@@ -59,7 +59,7 @@ endpackage
 
 `run_test("my_test")`  直接调用my_testbench_pkg中的my_test类(类的内容如下)，会完整的执行其中的语句。
 
-```systemverilog
+```
   class my_test extends uvm_test;
     `uvm_component_utils(my_test)
     
@@ -89,14 +89,14 @@ endclass
 
 ![](https://image-icons.oss-cn-beijing.aliyuncs.com/img/20210713143303.png)
 
-* phase这里翻译成阶段，每一个组件都会依次执行不同的phase, 如build_phase > connect_phase > .... ; 而只有当所有component的相同phase(如build_phase)执行完全后才会执行下一个phase(如connect_phase).
-* All testbench components are derived from uvm_component and are aware of the __phase__ concept.**Each component goes through a pre-defined set of phases, and it cannot proceed to the next phase until all components finish their execution in the current phase.** So UVM phases act as a **synchronizing **mechanism in the life cycle of a simulation.
+phase这里翻译成阶段，每一个组件都会依次执行不同的phase, 如build_phase > connect_phase > .... ; 而只有当所有component的相同phase(如build_phase)执行完全后才会执行下一个phase(如connect_phase).
+* All testbench components are derived from uvm_component and are aware of the __phase__ concept.Each component goes through a pre-defined set of phases, and it cannot proceed to the next phase until all components finish their execution in the current phase. So UVM phases act as a synchronizing mechanism in the life cycle of a simulation.
 * The common phases are the set of function and task phases that all uvm_components execute together.  All uvm_components are always synchronized with respect to the common phases.
 
 #### 参考链接:
-[SystemVerilog super Keyword (chipverify.com)](https://www.chipverify.com/systemverilog/systemverilog-super)
-[UVM Phases (chipverify.com)](https://www.chipverify.com/uvm/uvm-phases)
-[SystemVerilog Package (chipverify.com)](https://www.chipverify.com/systemverilog/systemverilog-package)
+* [SystemVerilog super Keyword (chipverify.com)](https://www.chipverify.com/systemverilog/systemverilog-super)
+* [UVM Phases (chipverify.com)](https://www.chipverify.com/uvm/uvm-phases)
+* [SystemVerilog Package (chipverify.com)](https://www.chipverify.com/systemverilog/systemverilog-package)
 
 ---
 本文原创，错误之处在所难免！盼指出！
