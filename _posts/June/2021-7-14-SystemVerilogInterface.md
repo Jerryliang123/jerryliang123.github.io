@@ -3,7 +3,7 @@ layout: article
 title: SV中的接口(interface)
 tags: 
 - SystemVerilog
-key: a20210713
+key: a20210714
 ---
 
 sv中引入接口的概念，其可以很方便的对信号进行集中管理；当后期信号发生变动时可以很好的维护。这里以通过接口形式搭建一个D-flipflop testbench为例介绍其简单使用。
