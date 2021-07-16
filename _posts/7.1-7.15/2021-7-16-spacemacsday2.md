@@ -1,6 +1,6 @@
 ---
 layout: article
-title: Spacemacs学习日志 | day1
+title: Spacemacs学习日志 | day2
 tags:
 - Spacemacs
 - 工具
