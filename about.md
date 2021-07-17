@@ -7,7 +7,7 @@ Intro: Geek and craftsman
 
 Special tools in use: Spacemacs, Roamresearch
 
-### Contact Information
+### Contact me 👇
 * Twitter: [Link](https://twitter.com/Jeson50084885)
 * Wechat:
 
