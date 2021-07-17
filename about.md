@@ -3,11 +3,17 @@ layout: article
 key: page-about
 ---
 
-Intro: Geek and craftsman 
+Intro: dream to become a qualified geek and craftsman.
 
-Special tools in use: Spacemacs, Roamresearch
+## Special tools in use:
+* Editor: Spacemacs
+* Note-taking: Roamresearch
+* Memorizing Stuff: Anki
+* Read-later: Instapaper
+* RSS: NetNewsWire(Ipad) RSS阅读器(Android)
+* Podcast: AntennaPod (Android)
 
-### Contact me 👇
+## Contact me 👇
 * Twitter: [Link](https://twitter.com/Jeson50084885)
 * Wechat:
 
