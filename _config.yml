@@ -22,7 +22,7 @@ url     : https://jerryliang123.github.io # the base hostname & protocol for you
 baseurl : # does not include hostname
 title   : Jerry's Blogging
 description: > # this means to ignore newlines until "Language & timezone"
-  ... 
+  ...
 
 ## => Language and Timezone
 ##############################
@@ -168,11 +168,11 @@ search:
 ## => Analytics
 ##############################
 analytics:
-  provider: false # false (default), "google", "custom"
+  provider: google # false (default), "google", "custom"
 
   ## Google Analytics
   google:
-    tracking_id : G-2JZ4T2NF8D # Google Analytics id for the site
+    tracking_id : 255992093 # Google Analytics id for the site
     anonymize_ip: false # Anonymize IP tracking for Analytics
 
 
