@@ -1,0 +1,167 @@
+{
+  "main": {
+    "id": "985755b0f37cbe70",
+    "type": "split",
+    "children": [
+      {
+        "id": "590f252496ca99c5",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "8.01-8.15/2021-8-23-APB.md",
+            "mode": "preview"
+          }
+        }
+      },
+      {
+        "id": "a4c75d6cabf99031",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "7.16-7.31/2021-7-18-svandspacemacs.md",
+            "mode": "source"
+          }
+        }
+      },
+      {
+        "id": "0a5ba192c0210243",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "7.1-7.15/2021-7-10-array.md",
+            "mode": "source"
+          }
+        }
+      },
+      {
+        "id": "01203d52bc717069",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "7.1-7.15/2021-7-10-enum.md",
+            "mode": "source"
+          }
+        }
+      },
+      {
+        "id": "eedbbba11dbd8a9d",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "7.1-7.15/2021-7-12-UVMhelloworld.md",
+            "mode": "source"
+          }
+        }
+      },
+      {
+        "id": "0319aa9d5ae90c56",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "7.1-7.15/2021-7-9-svdatatype.md",
+            "mode": "source"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "dee67b21afbb2700",
+    "type": "split",
+    "children": [
+      {
+        "id": "118078114173a07a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "a5ec26d23d204f21",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "8dee317f90741410",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": true,
+                "explainSearch": false,
+                "collapseAll": true,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 292
+  },
+  "right": {
+    "id": "a53639c70f6a59a2",
+    "type": "split",
+    "children": [
+      {
+        "id": "8ae28b11d46b759d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "21475a6e4dffd751",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "8.01-8.15/2021-8-23-APB.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "5878ee99b3731894",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "8.01-8.15/2021-8-23-APB.md"
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "active": "590f252496ca99c5",
+  "lastOpenFiles": [
+    "8.01-8.15/APB概况.md",
+    "8.01-8.15/2021-8-6-router1.md",
+    "7.16-7.31/2021-7-18-svandspacemacs.md",
+    "7.1-7.15/2021-7-8-reg.md",
+    "Untitled.md",
+    "Spacemacs.md",
+    "7.16-7.31/2021-7-17-OOP.md",
+    "7.1-7.15/2021-7-6-fifofsm.md",
+    "7.16-7.31/2021-7-21-SVCLOCKBLOCK.md",
+    "7.1-7.15/2021-7-9-svdatatype.md"
+  ]
+}
