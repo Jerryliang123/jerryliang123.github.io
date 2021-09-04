@@ -57,17 +57,6 @@
             "mode": "source"
           }
         }
-      },
-      {
-        "id": "0319aa9d5ae90c56",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "7.1-7.15/2021-7-9-svdatatype.md",
-            "mode": "source"
-          }
-        }
       }
     ],
     "direction": "vertical"
@@ -123,7 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "8.01-8.15/2021-8-23-APB.md",
+                "file": "7.1-7.15/2021-7-10-enum.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -140,7 +129,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "8.01-8.15/2021-8-23-APB.md"
+                "file": "7.1-7.15/2021-7-10-enum.md"
               }
             }
           }
@@ -151,17 +140,17 @@
     "direction": "horizontal",
     "width": 300
   },
-  "active": "590f252496ca99c5",
+  "active": "01203d52bc717069",
   "lastOpenFiles": [
-    "8.01-8.15/APB概况.md",
-    "8.01-8.15/2021-8-6-router1.md",
-    "7.16-7.31/2021-7-18-svandspacemacs.md",
-    "7.1-7.15/2021-7-8-reg.md",
+    "7.1-7.15/2021-7-10-enum.md",
+    "7.1-7.15/2021-7-12-UVMhelloworld.md",
+    "8.16-8.30/2021-8-24-跨时钟域问题.md",
     "Untitled.md",
-    "Spacemacs.md",
-    "7.16-7.31/2021-7-17-OOP.md",
-    "7.1-7.15/2021-7-6-fifofsm.md",
-    "7.16-7.31/2021-7-21-SVCLOCKBLOCK.md",
-    "7.1-7.15/2021-7-9-svdatatype.md"
+    "8.01-8.15/2021-8-9-vim.md",
+    "8.01-8.15/2021-8-23-APB.md",
+    "8.01-8.15/2021-8-6-router1.md",
+    "7.1-7.15/2021-7-9-svdatatype.md",
+    "8.01-8.15/APB概况.md",
+    "7.16-7.31/2021-7-18-svandspacemacs.md"
   ]
 }
