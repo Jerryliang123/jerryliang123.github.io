@@ -1,7 +1,9 @@
 ---
 layout: article
-title: 尝试一下
-tags: 随想
+title: uvm practical
+tags: 
+- 随想
+key: a20221003
 ---
 
 write to thinking.
@@ -9,8 +11,6 @@ write to thinking.
 <!--more-->
 
 # 第1章  与UVM的第一次接触
-
- 
 
 # 1.1       UVM是什么
 
