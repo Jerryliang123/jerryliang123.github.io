@@ -29,7 +29,7 @@ The lowest level of a UVM testbench is interface-specific. For each interface, t
 
 The uvm_sequence_item – sometimes referred to as a transaction – is a uvm_object that contains the data fields    necessary to implement the protocol and communicate with the DUT. The uvm_driver is responsible for converting the sequence_item(s) into “pin wiggles” on the signal-level interface to send and receive data to/from the DUT. The sequence_items are provided by one or more uvm_sequence objects that define stimulus at the transaction level and execute on the agent’s uvm_sequencer component. The sequencer is responsible for executing the sequences,      arbitrating between them and routing sequence items between the driver and the sequence.
 
-![IM 23](https://image-icons.oss-cn-beijing.aliyuncs.com/clip_image005.gif)
+![image-20221006002312605](https://image-icons.oss-cn-beijing.aliyuncs.com/image-20221006002312605.png)
 
  
 
@@ -47,7 +47,7 @@ The UVM test is started from an initial block in the top-level HVL module by cal
 
 A UVM testbench is composed of component objects extended from the uvm_component base class. When a uvm_component derived class object is created, it becomes part of the testbench hierarchy which persists for the duration of the simulation. This contrasts with the sequence branch of the UVM class hierarchy which involves transient objects - objects that are created, used and destroyed (i.e. garbage collected) once dereferenced.
 
-![IM 26](https://image-icons.oss-cn-beijing.aliyuncs.com/clip_image009.gif)
+![image-20221006002345583](https://image-icons.oss-cn-beijing.aliyuncs.com/image-20221006002345583.png)
 
 The (quasi) static uvm_component hierarchy is used by the UVM reporting infrastructure to print the scope of a component issuing a report message, by the configuration process to determine which components can access a configuration object, and by the UVM factory to apply factory overrides. This component hierarchy is represented by a linked list built up incrementally as each component is created. The hierarchical location of each component is determined by the name and parent arguments passed to its create method at the time of construction.
 
